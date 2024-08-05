@@ -49,7 +49,7 @@ const App = () => {
     };
 
     // 30초마다 fetchData 함수 호출
-    const intervalId = setInterval(fetchData, 10000);
+    const intervalId = setInterval(fetchData, 30000);
 
     // 컴포넌트 언마운트 시 인터벌 클리어
     return () => clearInterval(intervalId);
